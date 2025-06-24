@@ -65,7 +65,8 @@ public class FuelCosts
         do
         {
             System.out.print("Enter price of gas per gallon: ");
-            if (in.hasNextDouble()) {
+            if (in.hasNextDouble())
+            {
                 pricePerGallon = in.nextDouble();
                 if (pricePerGallon > 0)
                 {
