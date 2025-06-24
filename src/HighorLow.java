@@ -22,11 +22,13 @@ import java.util.Random;
                     if (userGuess >= 1 && userGuess <= 10)
                     {
                         userInput = true;
-                    } else
+                    }
+                    else
                     {
                         System.out.println("Please enter a number between 1 and 10.");
                     }
-                } else
+                }
+                else
                 {
                     System.out.println("Invalid input. Please enter an integer.");
                     in.next();
