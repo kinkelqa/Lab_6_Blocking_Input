@@ -26,7 +26,8 @@ public class CtoFConverter
                 {
                     System.out.println("This is the boiling point of water.");
                 }
-            } else
+            }
+            else
             {
                 System.out.println("Invalid user input. Please enter a valid value.");
                 in.next();
